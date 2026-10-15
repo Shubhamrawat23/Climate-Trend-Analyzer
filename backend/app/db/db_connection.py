@@ -5,7 +5,7 @@ from pymongo.errors import ConnectionFailure
 from dotenv import load_dotenv
 load_dotenv()
 
-mogo_uri = os.getenv("MONGOURL")
+mogo_uri = os.getenv("MONGO_URL")
 
 if not mogo_uri:
   print(
