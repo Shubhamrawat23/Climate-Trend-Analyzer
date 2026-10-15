@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body{
+  /* background-color: black; */
+  color: white;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+select option {
+  background-color: black;
+  color: #fff;
+}
+
+/* Dim out the days belonging to outside months so the current month stands out */
+.react-datepicker__day--outside-month {
+  color: #9ca3af !important;
+  opacity: 0.4;
+}
