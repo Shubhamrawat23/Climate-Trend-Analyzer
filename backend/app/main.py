@@ -10,6 +10,7 @@ app.add_middleware(
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "https://climate-trend-analyzer-zeta.vercel.app/"
+        "https://climate-trend-analyzer-zeta.vercel.app"
        ],
     allow_credentials=True,
     allow_methods=["*"],
